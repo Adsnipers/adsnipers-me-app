@@ -6,37 +6,10 @@
     <title>Adsnipers</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/master.css">
 </head>
 
-<style>
-    body {
-        background-color: #23272a;
-        background-image: url('/media/Adsnipers Site Background.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    #title {
-        text-align: center;
-        margin-top: 10%;
-        font-family: 'Roboto', sans-serif;
-        color: white;
-    }
-
-    #socialIcons {
-        display: flex;
-        justify-content: center;
-        margin-top: 10%;
-    }
-
-    #socialIcons img {
-        width: 30%;
-        padding: 0%;
-        top: 50%;
-    }
-</style>
-
-<body>
+<body id="landing">
     <h1 id="title">Hello World,
         I'm Adsnipers</h1>
     <div id="socialIcons">
@@ -63,6 +36,14 @@
             target="_blank" rel="noreferrer">
             <img id="socialIcon" src="/svg/spotify.svg" />
         </a>
+    </div>
+
+    <div id="projects">
+        <h2>Projects</h2>
+        <div id="buttons">
+            <a href="/sniperbot"><button id="SniperBot"></button></a>
+            <a href="/codefluent"><button id="Codefluent"></button></a>
+        </div>
     </div>
 
 </body>
