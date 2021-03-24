@@ -2,7 +2,7 @@
   "name": "adsnipers",
   "version": "1.0.0",
   "description": "My official website",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
