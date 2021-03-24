@@ -3,8 +3,9 @@ body {
 }
 
 #landing {
-    background-image: url('/media/Adsnipers Site Background.png');
+    background-image: url('https://i.imgur.com/L4EuT6i.jpg');
     background-size: cover;
+	background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
@@ -31,7 +32,7 @@ body {
     color: white;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 #projects #buttons {
@@ -52,11 +53,11 @@ body {
 }
 
 #projects #buttons #SniperBot {
-    background-image: url(/media/SniperBot.png);
+    background-image: url(https://i.imgur.com/sgUeqaG.png);
 }
 
 #projects #buttons #Codefluent {
-    background-image: url(/media/Codefluent.png);
+    background-image: url(https://i.imgur.com/keebozn.png);
 }
 
 #SniperBot #container1 {
