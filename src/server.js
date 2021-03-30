@@ -11,6 +11,10 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/www/index.html');
 });
 
+app.get('/blog', (req, res) => {
+    res.sendFile(__dirname + '/www/blog.html');
+});
+
 app.get('/sniperbot', (req, res) => {
     res.sendFile(__dirname + '/www/projects/sniperbot.html');
 });
