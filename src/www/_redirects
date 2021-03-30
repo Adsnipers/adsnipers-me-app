@@ -1,0 +1,6 @@
+# Redirects from what the browser requests to what we serve
+/home       /github
+/youtube    https://adsnipers.me/youtube
+/twitch     https://twitch.tv/adsnipers
+/instagram  https://www.petsofnetlify.com
+/twitter    https://twitter.com/adsnipersTV
