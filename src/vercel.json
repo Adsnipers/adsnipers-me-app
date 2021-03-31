@@ -1,0 +1,17 @@
+{
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "redirects": [{
+            "source": "/sniperbot",
+            "destination": "/projects/sniperbot"
+        },
+        {
+            "source": "/codefluent",
+            "destination": "/projects/codefluent"
+        },
+        {
+            "source": "/view-source",
+            "destination": "https://github.com/adsnipers/adsnipers-me-app"
+        }
+    ]
+}
