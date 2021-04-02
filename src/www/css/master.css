@@ -73,14 +73,14 @@ body {
 }
 
 
-#projects {
+#projects-container {
     color: white;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     margin-top: 10%;
 }
 
-#projects #buttons {
+#projects-container #projects-buttons-container {
     display: flex;
     justify-content: center;
 }
