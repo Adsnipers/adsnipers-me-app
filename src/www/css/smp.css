@@ -21,6 +21,7 @@
 }
 
 #map {
+    border: none;
     width: 90%;
     height: 900px;
 }
