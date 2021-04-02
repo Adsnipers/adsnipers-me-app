@@ -72,19 +72,20 @@ body {
     top: 50%;
 }
 
-#projects {
+
+#projects-container {
     color: white;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     margin-top: 10%;
 }
 
-#projects #buttons {
+#projects-container #projects-buttons-container {
     display: flex;
     justify-content: center;
 }
 
-#projects #buttons button {
+#projects-container #projects-buttons-container button {
     border: 2.5px solid white;
     padding: 100px;
     padding-left: 150px;
@@ -96,111 +97,18 @@ body {
     background-size: cover;
 }
 
-#projects #buttons #SniperBot {
+#projects-container #projects-buttons-container #SniperBot {
     background-image: url(https://i.imgur.com/sgUeqaG.png);
 }
 
-#projects #buttons #Codefluent {
+#projects-container #projects-buttons-container #Codefluent {
     background-image: url(https://i.imgur.com/keebozn.png);
 }
 
-#SniperBot #container1 {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    display: flex;
-    margin-top: 5%;
-}
-
-#SniperBot #container2 {
-    margin-left: 5%;
-    max-width: 30%;
-}
-
-#SniperBot #buttonContainer {
-    margin-left: 10%;
-    display: flex;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-
-#SniperBot #buttonContainer button {
-    border: none;
-    padding: 20px;
-    padding-right: 50px;
-    padding-left: 50px;
-    margin-left: 20px;
-    border: 2.5px solid white;
-    cursor: pointer;
-}
-
-#SniperBot #buttonContainer #makeOfferButton {
+#button-center-trans-border {
     background: none;
+    padding: 1%;
     border: 2.5px solid white;
     color: white;
     cursor: pointer;
-}
-
-#Codefluent #container1 {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    display: flex;
-    margin-top: 5%;
-}
-
-#Codefluent #container2 {
-    margin-left: 5%;
-    max-width: 30%;
-}
-
-#Codefluent #buttonContainer {
-    margin-left: 10%;
-    display: flex;
-    margin-top: 5%;
-    margin-bottom: 10%;
-}
-
-#Codefluent #buttonContainer button {
-    border: none;
-    padding: 20px;
-    padding-right: 50px;
-    padding-left: 50px;
-    margin-left: 20px;
-    border: 2.5px solid white;
-    cursor: pointer;
-}
-
-#Codefluent #buttonContainer #makeOfferButton {
-    background: none;
-    border: 2.5px solid white;
-    color: white;
-    cursor: pointer;
-}
-
-#Blog #articles {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    display: flex;
-    margin-right: 5%;
-    margin-left: 5%;
-}
-
-#Blog #articles #article {
-    background-color: #36393f;
-    padding: 2.5%;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-top: 5%;
-    margin-right: 5%;
-}
-
-#Blog #articles #article button {
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    transition-duration: 1s;
-}
-
-#Blog #articles #article button:hover{
-    box-shadow: 2px 2px 10px;
-    transition-duration: 0.5s;
 }
