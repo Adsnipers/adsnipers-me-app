@@ -19,3 +19,9 @@
 #body-center-subtitle span {
     font-weight: bold;
 }
+
+#map {
+    border: none;
+    width: 90%;
+    height: 900px;
+}
