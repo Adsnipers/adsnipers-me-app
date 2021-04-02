@@ -1,36 +1,3 @@
-
-#projects {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    margin-top: 10%;
-}
-
-#projects #buttons {
-    display: flex;
-    justify-content: center;
-}
-
-#projects #buttons button {
-    border: 2.5px solid white;
-    padding: 100px;
-    padding-left: 150px;
-    padding-right: 150px;
-    border-radius: 10px;
-    margin-right: 10px;
-    cursor: pointer;
-    background-position: center;
-    background-size: cover;
-}
-
-#projects #buttons #SniperBot {
-    background-image: url(https://i.imgur.com/sgUeqaG.png);
-}
-
-#projects #buttons #Codefluent {
-    background-image: url(https://i.imgur.com/keebozn.png);
-}
-
 #SniperBot #container1 {
     font-family: 'Roboto', sans-serif;
     color: white;

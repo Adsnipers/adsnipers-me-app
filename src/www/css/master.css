@@ -72,6 +72,39 @@ body {
     top: 50%;
 }
 
+
+#projects {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#projects #buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#projects-container #projects-buttons-container button {
+    border: 2.5px solid white;
+    padding: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+}
+
+#projects-container #projects-buttons-container #SniperBot {
+    background-image: url(https://i.imgur.com/sgUeqaG.png);
+}
+
+#projects-container #projects-buttons-container #Codefluent {
+    background-image: url(https://i.imgur.com/keebozn.png);
+}
+
 #button-center-trans-border {
     background: none;
     padding: 1%;
