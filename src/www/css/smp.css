@@ -4,8 +4,18 @@
     justify-content: center;
 }
 
-#body-center-title-flex {
+#body-center-title {
     margin-top: 10%;
     font-family: 'Roboto', sans-serif;
     color: white;
+}
+
+#body-center-subtitle {
+    margin-top: 5%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#body-center-subtitle span {
+    font-weight: bold;
 }

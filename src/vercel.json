@@ -44,6 +44,10 @@
     {
         "source": "/github",
         "destination": "https://github.com/adsnipers"
+    },
+    {
+        "source": "/smp/apply",
+        "destination": "https://forms.gle/UfmpvXgSx162SCq49"
     }
 ]
 }
