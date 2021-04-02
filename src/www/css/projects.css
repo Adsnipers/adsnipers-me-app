@@ -1,0 +1,104 @@
+
+#projects {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#projects #buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#projects #buttons button {
+    border: 2.5px solid white;
+    padding: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+}
+
+#projects #buttons #SniperBot {
+    background-image: url(https://i.imgur.com/sgUeqaG.png);
+}
+
+#projects #buttons #Codefluent {
+    background-image: url(https://i.imgur.com/keebozn.png);
+}
+
+#SniperBot #container1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    margin-top: 5%;
+}
+
+#SniperBot #container2 {
+    margin-left: 5%;
+    max-width: 30%;
+}
+
+#SniperBot #buttonContainer {
+    margin-left: 10%;
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#SniperBot #buttonContainer button {
+    border: none;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 20px;
+    border: 2.5px solid white;
+    cursor: pointer;
+}
+
+#SniperBot #buttonContainer #makeOfferButton {
+    background: none;
+    border: 2.5px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+#Codefluent #container1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    margin-top: 5%;
+}
+
+#Codefluent #container2 {
+    margin-left: 5%;
+    max-width: 30%;
+}
+
+#Codefluent #buttonContainer {
+    margin-left: 10%;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#Codefluent #buttonContainer button {
+    border: none;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 20px;
+    border: 2.5px solid white;
+    cursor: pointer;
+}
+
+#Codefluent #buttonContainer #makeOfferButton {
+    background: none;
+    border: 2.5px solid white;
+    color: white;
+    cursor: pointer;
+}
