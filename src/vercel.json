@@ -49,6 +49,10 @@
         "source": "/smp/apply",
         "destination": "https://forms.gle/UfmpvXgSx162SCq49"
 
+    },
+    {
+        "source": "/smp/map",
+        "destination": "http://66.70.156.103:7924/"
     }
 ]
 }
