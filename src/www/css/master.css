@@ -114,9 +114,17 @@ body {
 }
 
 #button-center-trans-border {
-    background: none;
+    background: rgba(0, 0, 0, 0.3);
     padding: 1%;
     border: 2.5px solid white;
     color: white;
+    cursor: pointer;
+}
+
+#button-center {
+    background: white;
+    padding: 1%;
+    border: none;
+    color: black;
     cursor: pointer;
 }
